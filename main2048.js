@@ -173,7 +173,7 @@ document.addEventListener('touchstart', function (event) {
 
 document.addEventListener('touchmove', function (event) {
     event.preventDefault();
-});
+}, { passive: false });
 
 document.addEventListener('touchend', function (event) {
     endx = event.changedTouches[0].pageX;
