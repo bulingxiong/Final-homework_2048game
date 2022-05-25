@@ -24,19 +24,15 @@ B站视频教程：https://www.bilibili.com/video/BV1Hb411L729?spm_id_from=333.3
 
 ## 4、游戏截图
 
- <img src="C:\Users\86158\AppData\Roaming\Typora\typora-user-images\image-20220525121543950.png" alt="image-20220525121543950" style="zoom:50%;" />
-
+![image](https://user-images.githubusercontent.com/105336974/170182036-222f135f-1f02-40b1-9370-f5bbb3973e48.png)
 ## 5、游戏实现原理
 
 ### (1)首先，把16宫格看成是矩阵的形式
 
- <img src="C:\Users\86158\AppData\Roaming\Typora\typora-user-images\image-20220525121859040.png" alt="image-20220525121859040" style="zoom:50%;" />
-
+![image](https://user-images.githubusercontent.com/105336974/170182018-661b925c-6db9-435f-aac5-7c4f34a01e7f.png)
 ### (2)在html中给每个格子添加类别及ID，来记录每个格子的位置
 
- <img src="C:\Users\86158\AppData\Roaming\Typora\typora-user-images\image-20220525122812474.png" alt="image-20220525122812474" style="zoom: 67%;" />
-
-### (3)游戏开始时，随机生成两个数字，2或者4，出现在矩阵中任意位置
+![image](https://user-images.githubusercontent.com/105336974/170182077-c4ea9b79-fc2f-45ed-a9d0-80417ef23722.png)### (3)游戏开始时，随机生成两个数字，2或者4，出现在矩阵中任意位置
 
 ~~~javascript
 ```// 在十六个格子里找一个空闲的生成一个数字
