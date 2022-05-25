@@ -32,7 +32,9 @@ B站视频教程：https://www.bilibili.com/video/BV1Hb411L729?spm_id_from=333.3
 ![image](https://user-images.githubusercontent.com/105336974/170182018-661b925c-6db9-435f-aac5-7c4f34a01e7f.png)
 ### (2)在html中给每个格子添加类别及ID，来记录每个格子的位置
 
-![image](https://user-images.githubusercontent.com/105336974/170182077-c4ea9b79-fc2f-45ed-a9d0-80417ef23722.png)### (3)游戏开始时，随机生成两个数字，2或者4，出现在矩阵中任意位置
+![image](https://user-images.githubusercontent.com/105336974/170182077-c4ea9b79-fc2f-45ed-a9d0-80417ef23722.png)
+
+### (3)游戏开始时，随机生成两个数字，2或者4，出现在矩阵中任意位置
 
 ~~~javascript
 ```// 在十六个格子里找一个空闲的生成一个数字
