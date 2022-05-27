@@ -263,6 +263,7 @@ function moveLeft(board) {
 
 
 function moveRight(board) {
+    // 判断格子是否能向右移动
     if (!canMoveRight(board))
         return false;
 
@@ -295,6 +296,7 @@ function moveRight(board) {
 }
 
 function moveUp(board) {
+    // 判断格子是否能向上移动
     if (!canMoveUp(board))
         return false;
 
@@ -327,6 +329,7 @@ function moveUp(board) {
 }
 
 function moveDown(board) {
+    // 判断格子是否能向下移动
     if (!canMoveDown(board))
         return false;
 
@@ -363,7 +366,7 @@ function isgameover() {
         gameover();
     }
 }
-
+//游戏结束
 function gameover() {
     alert("game over!");
 }
