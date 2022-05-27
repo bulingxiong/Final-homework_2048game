@@ -66,8 +66,9 @@ function canMoveLeft(board) {
 
     return false;
 }
-
+//格子向右移动
 function canMoveRight(board) {
+    // 对格子的前三列进行循环
     for (var i = 0; i < 4; i++)
         for (var j = 2; j >= 0; j--) {
             if (board[i][j] != 0)
@@ -78,7 +79,9 @@ function canMoveRight(board) {
     return false;
 }
 
+//格子向上移动
 function canMoveUp(board) {
+    // 对格子的后三行进行循环
     for (var j = 0; j < 4; j++)
         for (var i = 1; i < 4; i++) {
             if (board[i][j] != 0)
@@ -88,8 +91,9 @@ function canMoveUp(board) {
 
     return false;
 }
-
+//格子向下移动
 function canMoveDown(board) {
+    // 对格子的前三行进行循环
     for (var j = 0; j < 4; j++)
         for (var i = 2; i >= 0; i--) {
             if (board[i][j] != 0)
